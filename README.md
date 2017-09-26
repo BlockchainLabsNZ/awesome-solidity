@@ -2,7 +2,7 @@
 
 # Contributing
 
-Please read our contribution guidelines first. Contributors are our favourite people, but we also love you readers too, thank you!
+Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
 - [Getting Started](#getting-started)
 - [Testing](#testing)
@@ -15,19 +15,31 @@ Please read our contribution guidelines first. Contributors are our favourite pe
 
 ## Getting Started
 
+- [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
+
 ## Testing
+
+- [Truffle](https://github.com/trufflesuite/truffle) - Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
+- [TestRPC](https://github.com/ethereumjs/testrpc) - Fast Ethereum RPC client for testing and development.
 
 ## Libraries
 
 ### Best Practice
 
-- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations
+- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
+  - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
 
 ### MulstiSig Wallets
 
-## Smart Contract Examples
+- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) - Popular multisig deployed by the likes of District0x, Golem, Aragon, Bancor, and more..
 
 ### Tokens
 
+- [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) - Collection of basic token skeletons to extend.
+- [MiniMe Token](https://github.com/Giveth/minime) - The MiniMeToken contract is a standard ERC20 token with extra functionality.
+
 ### Crowd Sales
 
+- [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) - Crowdsale contracts from Status.
+
+If you need more help, check out [Ethereum StackExchange](https://ethereum.stackexchange.com)
