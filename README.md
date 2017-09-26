@@ -1,6 +1,3 @@
-# awesome-solidity
-A curated list of awesome Solidity resources
-
 # Awesome Solidity ![Awesome](https://raw.githubusercontent.com/BlockchainLabsNZ/awesome-solidity/master/banner.png)
 
 # Contributing
@@ -24,7 +21,13 @@ Please read our contribution guidelines first. Contributors are our favourite pe
 
 ### Best Practice
 
+- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations
+
 ### MulstiSig Wallets
 
 ## Smart Contract Examples
+
+### Tokens
+
+### Crowd Sales
 
