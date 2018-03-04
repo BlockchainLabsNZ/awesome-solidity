@@ -1,4 +1,4 @@
-# Awesome Solidity ![Awesome](https://raw.githubusercontent.com/BlockchainLabsNZ/awesome-solidity/master/banner.png)
+# Awesome Solidity ![Awesome](../master/banner.png?raw=true)
 
 # Contributing
 
