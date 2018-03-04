@@ -81,7 +81,8 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 
 
 ## Code and patterns examples
-links to the code
+
+- [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
 
 ### Test Templates
 
