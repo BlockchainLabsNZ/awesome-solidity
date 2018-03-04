@@ -43,7 +43,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Ethereum Smart Contract Security Best Practices (Consensys) ](https://consensys.github.io/smart-contract-best-practices/)
 * [Exceptions on overflow](https://github.com/ethereum/solidity/issues/796#issuecomment-253578925)
-* [Know attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
+* [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
 ### Gas spending
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
