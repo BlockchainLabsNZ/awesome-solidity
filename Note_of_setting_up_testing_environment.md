@@ -1,14 +1,16 @@
 # Note of setting up testing environment
 
-This list is created and maintained by Bruce Li. It is based on Windows. This is not a spelling-out tutorial but more like a reminder or note to share. This list is about tools below:
+This list is created and maintained by Bruce Li. It is based on Windows 10. This is not a spelling-out tutorial but more like a reminder or note to share. This list is about tools below:
 
 * [testrpc](#testrpc)
 * [Truffle](#truffle)
-* [Mocha.js & Chai.js](#mocha.jschai.js)
+* [Mocha.js](#mocha)
+* [Chai.js](#chai)
 * [Truffle flattener](#truffle-flattener)
 * [eth-gas-reporter](#eth-gas-reporter)
 * [travis](#travis)
 * [Coveralls](#coveralls)
+* [sol-function-profiler](#sol-function-profiler)
 * [Parity](#parity)
 
 ## testrpc
@@ -57,21 +59,23 @@ module.exports = function(deployer) {
 ```
 * then migrate to EVM:  truffle.cmd migrate
 
-## Mocha.js & Chai.js
+## Mocha
 
 Mocha is the default truffle testing tool [Website](https://mochajs.org/) 
 Fast and automatically create test :
 ```
 truffle.cmd create test projectName;
 ```
+## Chai
 Chai is the default test framework. [syntax guidance](http://chaijs.com/guide/styles/#assert)
 
 ## Truffle flattener 
 to automatically make the contracts that need to be deployed combine together.
+* Precondition: make sure your truffle.js installed locally, otherwise flattener cannot work properly.
 ```
 npm install truffle-flattener -g
 ```
-(Note: you have to install this tool globally or it wouldn’t work)
+(Note: you have to install flattener globally or it wouldn’t work)
 
 
 ## eth-gas-reporter
@@ -97,7 +101,7 @@ module.exports = {
   networks: {
     ...etc...
   },
-  //add below lines in the file, or it would run gas-report
+  //add below lines in the file, or it wouldn't run gas-report
   mocha: {
     reporter: 'eth-gas-reporter',
     reporterOptions : {
@@ -118,19 +122,41 @@ truffle test
 (To be continued...)
 
 ## Coveralls
-It can not run on Windows 10. But you can try it on travis’ VM.
+You need to do some configuration manually so that it can run on Windows 10
+* Install:
 ```
 npm install --save-dev solidity-coverage
-npm run coverage && cat coverage/lcov.info | coveralls
 ```
-or you can copy and paste this line in to package.json file “script”
+* Create a file named `.solcover.js” with “module.exports = { norpc: true }` inside
+* Run testRPC with:
 ```
-"coverage": "./node_modules/.bin/solidity-coverage && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+node_modules\.bin\testrpc-sc --port 8555
 ```
-and then:
- ```
- npm run coverage
- ```
+* Open new command line and run
+```
+./node_modules/.bin/solidity-coverage
+```
+
+## sol-function-profiler
+This tool is used to generate work paper
+* Hop in the profiler folder and run:
+```
+node index.js <file name with path to the file>
+```
+for example: 
+```
+node index.js D:\Blockchain-Solidity\mothership-sen\contracts\Distribution.sol
+```
+
+<br>
+
+If you want to generate work paper for the whole folder, use Matt’s sh script:
+* Clone repo from https://github.com/matt-lough/solidity-scripts
+* Hop in the folder and run bash command line
+* In (git) bash, type and run: `./run_profiler`, then it asks you the target folder path. Enter and then run. 
+For example: ` ../mothership-sen/contracts/ ` (don't miss the slash at the end of the path)
+* All results go to work_paper.MD in solidity-scripts folder. If you are using this script repeatedly, make sure you have backup the previous report 
+
 
 ## Parity
 It default links to Main net. Want to switch network to kovan? 
