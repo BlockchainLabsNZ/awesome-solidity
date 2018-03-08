@@ -25,6 +25,15 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 
 
+	### Typical Business logic
+	* [Tokens](logic/tokens.md)
+	* [Wallets](logic/wallets.md)
+	* [Crowd sale](logic/sale.md)
+	* [Distribution/Exchange](logic/distribution-and-exchange.md)
+	* [Vesting/Locking](logic/vesting.md)
+
+
+
 <br>
 
 
@@ -33,7 +42,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
-
+* [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 
 <br>
 
@@ -49,7 +58,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
 * [Gas Costs from Yellow paper](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
 * [Under-Optimized Smart Contracts Devour Your Money](https://arxiv.org/pdf/1703.03994.pdf) (.pdf)
-
 
 <br>
 
