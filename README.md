@@ -1,4 +1,4 @@
-# Awesome Solidity ![Awesome](https://raw.githubusercontent.com/BlockchainLabsNZ/awesome-solidity/master/banner.png)
+# Awesome Solidity ![Awesome](../master/banner.png?raw=true)
 
 # Contributing
 
@@ -24,15 +24,12 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 
-
 	### Typical Business logic
 	* [Tokens](logic/tokens.md)
 	* [Wallets](logic/wallets.md)
 	* [Crowd sale](logic/sale.md)
 	* [Distribution/Exchange](logic/distribution-and-exchange.md)
 	* [Vesting/Locking](logic/vesting.md)
-
-
 
 <br>
 
@@ -53,6 +50,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Ethereum Smart Contract Security Best Practices (Consensys) ](https://consensys.github.io/smart-contract-best-practices/)
 * [Exceptions on overflow](https://github.com/ethereum/solidity/issues/796#issuecomment-253578925)
+* [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
 ### Gas spending
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
@@ -66,7 +64,8 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 ### Standards
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
-  - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
+- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
+- [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
 
 ### MulstiSig Wallets
 
@@ -89,7 +88,9 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 
 
 ## Code and patterns examples
-links to the code
+
+- [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
+- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
 
 ### Test Templates
 
@@ -103,4 +104,4 @@ links to the code
 
 - [Truffle](https://github.com/trufflesuite/truffle) - Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 - [TestRPC](https://github.com/ethereumjs/testrpc) - Fast Ethereum RPC client for testing and development.
-
+- [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) - A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
