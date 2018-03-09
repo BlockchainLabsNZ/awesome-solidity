@@ -26,6 +26,6 @@ High level contracts overview
 
 ## Complex
 
-* [MiniMe](MiniMe.md)
+* [MiniMe](tokens/MiniMe.md)
 
 <br>
