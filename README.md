@@ -43,6 +43,8 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 * [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
+* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+
 
 <br>
 
