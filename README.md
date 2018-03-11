@@ -25,6 +25,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 * [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) - ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
+* Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 
 	### Typical Business logic
 	
@@ -44,7 +45,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 * [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 * [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
-
 
 <br>
 
