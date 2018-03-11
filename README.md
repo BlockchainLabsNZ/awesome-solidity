@@ -15,6 +15,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Code Examples](#code-examples)
   - [Tokens](#tokens)
   - [Crowd Sales](#crowd-sales)
+  - [Other](#other)
 - [Tools](#tools)
   - [Testing tools](#testing-tools)
   
@@ -23,6 +24,15 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
+* [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) - ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
+
+	### Typical Business logic
+	
+	* [Tokens](logic/tokens.md)
+	* Wallets<!--](logic/wallets.md)-->
+	* Crowd sale<!--](logic/sale.md)-->
+	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
+	* Vesting/Locking<!--](logic/vesting.md)-->
 
 <br>
 
@@ -32,7 +42,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
-
+* [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 
 <br>
 
@@ -46,10 +56,14 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
 ### Gas spending
+
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
 * [Gas Costs from Yellow paper](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
 * [Under-Optimized Smart Contracts Devour Your Money](https://arxiv.org/pdf/1703.03994.pdf) (.pdf)
 
+### Other
+
+- [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
 
 <br>
 
@@ -59,7 +73,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
 - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
-- [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
 
 ### MulstiSig Wallets
 
@@ -76,6 +89,9 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 If you need more help, check out [Ethereum StackExchange](https://ethereum.stackexchange.com)
 
+### Other
+
+- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
 
 <br>
 
