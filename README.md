@@ -45,6 +45,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 * [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 * [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 
 <br>
 
