@@ -102,10 +102,7 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 ## Code and patterns examples
 
 - [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
-- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
-
-### Test Templates
-
+- [Upgradable contracts](examples/upgradable-contracts.md) 
 
 
 <br>
