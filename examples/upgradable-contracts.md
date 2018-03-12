@@ -3,7 +3,7 @@
 <br>
 
 ## Importing data from another contract
-If you need access the same data from different contact you need to think in advance.
+If you need to access the same data from different contact you need to think in advance.
 
 ### Original contract
 
