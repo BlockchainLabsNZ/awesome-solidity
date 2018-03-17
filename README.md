@@ -35,6 +35,11 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
+	### Short answers to some questions
+
+	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
+	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
+
 <br>
 
 
@@ -71,6 +76,10 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 <br>
 
+
+<br>
+
+
 ## Libraries
 
 ### Standards
@@ -105,6 +114,7 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 
 - [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
 - [Upgradable contracts](examples/upgradable-contracts.md) 
+- [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
 
 <br>
