@@ -35,6 +35,11 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
+	### Short answers to some questions
+
+	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
+	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
+
 <br>
 
 
@@ -45,6 +50,8 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 * [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 * [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
+* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 
 <br>
 
@@ -62,12 +69,17 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
 * [Gas Costs from Yellow paper](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
 * [Under-Optimized Smart Contracts Devour Your Money](https://arxiv.org/pdf/1703.03994.pdf) (.pdf)
+* [public vs external](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices?answertab=active#tab-top) - latter is twice cheaper (496 vs 261)
 
 ### Other
 
 - [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
 
 <br>
+
+
+<br>
+
 
 ## Libraries
 
@@ -103,6 +115,7 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 
 - [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
 - [Upgradable contracts](examples/upgradable-contracts.md) 
+- [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
 
 <br>
