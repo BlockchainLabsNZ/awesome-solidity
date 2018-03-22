@@ -108,6 +108,7 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 ### Other
 
 - [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
+- [Easily Send Many Tokens to Many Addresses](https://github.com/poanetwork/multisender)
 
 <br>
 
