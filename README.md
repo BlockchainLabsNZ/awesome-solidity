@@ -5,9 +5,17 @@
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
 - [Getting Started](#getting-started)
+	- [Concepts](#concepts)
+	- [Typical Business logic](#typical-business-logic)
+	- [Short answers to some questions](#short-answers-to-some-questions)
 - [Vulnerabilities](#vulnerabilities)
 - [Best practices](#best-practices)
+	- [Security](#security)
+	- [Gas spending](#gas-spending)
+	- [Other](#other)
 - [Libraries](#libraries)
+	- [Standard contracts](#standard-contracts)
+	- [Utils](#utils)
 - [Code Examples](#code-examples)
 - [Tools](#tools)
 
