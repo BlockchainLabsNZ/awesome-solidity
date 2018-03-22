@@ -11,7 +11,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Code Examples](#code-examples)
 - [Tools](#tools)
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Getting Started
 
@@ -52,7 +52,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Vulnerabilities
 
@@ -61,7 +61,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 [2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Best practices
 
@@ -83,8 +83,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
-
+<br>
 ## Libraries
 
 ### Standard contracts
@@ -103,7 +102,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Code and patterns examples
 
@@ -112,7 +111,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Tools
 
