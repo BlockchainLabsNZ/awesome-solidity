@@ -1,6 +1,6 @@
 # Awesome Solidity
 
-![Awesome](./awesome_solidity_logo.jpg?raw=true)
+![Awesome](./awesome_solidity_logo_small.jpg?raw=true)
 
 #### Contributing
 
