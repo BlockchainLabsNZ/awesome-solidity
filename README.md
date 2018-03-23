@@ -1,6 +1,8 @@
-# Awesome Solidity ![Awesome](../master/banner.png?raw=true)
+# Awesome Solidity
 
-# Contributing
+![Awesome](./awesome_solidity_logo.jpg?raw=true)
+
+#### Contributing
 
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
