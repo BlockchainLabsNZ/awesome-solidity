@@ -7,13 +7,21 @@
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
 - [Getting Started](#getting-started)
+	- [Concepts](#concepts)
+	- [Typical Business logic](#typical-business-logic)
+	- [Short answers to some questions](#short-answers-to-some-questions)
 - [Vulnerabilities](#vulnerabilities)
 - [Best practices](#best-practices)
+	- [Security](#security)
+	- [Gas spending](#gas-spending)
+	- [Other](#other)
 - [Libraries](#libraries)
+	- [Standard contracts](#standard-contracts)
+	- [Utils](#utils)
 - [Code Examples](#code-examples)
 - [Tools](#tools)
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Getting Started
 
@@ -54,7 +62,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Vulnerabilities
 
@@ -63,7 +71,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 [2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Best practices
 
@@ -85,7 +93,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Libraries
 
@@ -105,7 +113,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Code and patterns examples
 
@@ -114,7 +122,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
 
-<br><!-- ------------------------------------------------ -->
+<br>
 
 ## Tools
 
