@@ -109,7 +109,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
 - [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
-
+- [Easily Send Many Tokens to Many Addresses](https://github.com/poanetwork/multisender)
 
 
 
