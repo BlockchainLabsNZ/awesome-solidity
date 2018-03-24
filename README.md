@@ -1,24 +1,27 @@
-# Awesome Solidity ![Awesome](../master/banner.png?raw=true)
+# Awesome Solidity
 
-# Contributing
+![Awesome](./awesome_solidity_logo_small.jpg?raw=true)
+
+#### Contributing
 
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
 - [Getting Started](#getting-started)
-- [Concepts](#concepts)
+	- [Concepts](#concepts)
+	- [Typical Business logic](#typical-business-logic)
+	- [Short answers to some questions](#short-answers-to-some-questions)
+- [Vulnerabilities](#vulnerabilities)
 - [Best practices](#best-practices)
+	- [Security](#security)
+	- [Gas spending](#gas-spending)
+	- [Other](#other)
 - [Libraries](#libraries)
-  - [Standards](#standards)
-  - [MultiSig Wallets](#multisig-wallets)
-  - [Tokens](#tokens)
-  - [Crowd sales](#crowd-sales)
+	- [Standard contracts](#standard-contracts)
+	- [Utils](#utils)
 - [Code Examples](#code-examples)
-  - [Tokens](#tokens)
-  - [Crowd Sales](#crowd-sales)
-  - [Other](#other)
 - [Tools](#tools)
-  - [Testing tools](#testing-tools)
-  
+
+<br>
 
 ## Getting Started
 
@@ -27,6 +30,17 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) - ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
+
+	### Concepts
+	
+	* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
+	* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
+	* [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
+	* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
+	* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
+	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
+	
 
 	### Typical Business logic
 	
@@ -41,22 +55,23 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
 	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
 
-<br>
 
 
 
-## Concepts
 
-* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
-* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
-* [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
-* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
-* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
-* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
-* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
+
+
 
 <br>
 
+## Vulnerabilities
+
+* Consensys: [known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/) (updates are irregular)
+* Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b), 
+[2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
+
+
+<br>
 
 ## Best practices
 
@@ -64,7 +79,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Ethereum Smart Contract Security Best Practices (Consensys) ](https://consensys.github.io/smart-contract-best-practices/)
 * [Exceptions on overflow](https://github.com/ethereum/solidity/issues/796#issuecomment-253578925)
-* [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
 ### Gas spending
 
@@ -77,41 +91,29 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
 
-<br>
 
 
 <br>
-
 
 ## Libraries
 
-### Standards
+### Standard contracts
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
-- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
-
-### MulstiSig Wallets
-
-- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) - Popular multisig deployed by the likes of District0x, Golem, Aragon, Bancor, and more..
-
-### Tokens
-
 - [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) - Collection of basic token skeletons to extend.
 - [MiniMe Token](https://github.com/Giveth/minime) - The MiniMeToken contract is a standard ERC20 token with extra functionality.
-
-### Crowd Sales
-
+- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) - Popular multisig deployed by the likes of District0x, Golem, Aragon, Bancor, and more..
 - [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) - Crowdsale contracts from Status.
 
-If you need more help, check out [Ethereum StackExchange](https://ethereum.stackexchange.com)
+### Utils
 
-### Other
-
+- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
 - [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
 
+
+
+
 <br>
-
-
 
 ## Code and patterns examples
 
