@@ -55,6 +55,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 * [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
 * [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
 * [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 * [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 * [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
