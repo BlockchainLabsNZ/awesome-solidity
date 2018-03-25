@@ -86,7 +86,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 ## Libraries
 
-### Best Practice
+## Best Practice
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
 - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
@@ -107,3 +107,17 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) - Crowdsale contracts from Status.
 
 If you need more help, check out [Ethereum StackExchange](https://ethereum.stackexchange.com)
+
+## Dev-tools
+
+- [Solidity-scripts](https://github.com/matt-lough/solidity-scripts) - List of Scripts created by us for use when auditing
+
+- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
+
+## Tutorials
+
+- [Crypto Zombies](https://cryptozombies.io/) - Great for a complete beginner to learn Solidity
+
+## Known Vulnerabilities
+
+The following is a list of known vulnerabilities that should be considered when writing and auditing smart contracts.
