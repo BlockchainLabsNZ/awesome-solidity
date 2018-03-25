@@ -26,6 +26,9 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 * [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) - ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
+* [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
+* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
+* [The Hitchhiker's Guide to Smart Contracts](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
 
@@ -55,6 +58,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 * [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 * [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
+* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 
 <br>
 
@@ -64,6 +68,12 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 ### Security
 
 * [Ethereum Smart Contract Security Best Practices (Consensys) ](https://consensys.github.io/smart-contract-best-practices/)
+* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
+* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
+* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
+* [How $800K Evaporated from PoWH Ponzi](https://blog.goodaudience.com/how-800k-evaporated-from-the-powh-coin-ponzi-scheme-overnight-1b025c33b530)
+* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
+* [Hack This Contract Game](http://hackthiscontract.io/)
 * [Exceptions on overflow](https://github.com/ethereum/solidity/issues/796#issuecomment-253578925)
 * [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
@@ -113,6 +123,8 @@ If you need more help, check out [Ethereum StackExchange](https://ethereum.stack
 - [Solidity-scripts](https://github.com/matt-lough/solidity-scripts) - List of Scripts created by us for use when auditing
 
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
+
+- [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
 
 ## Tutorials
 
