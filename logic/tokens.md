@@ -9,19 +9,19 @@ High level contracts overview
 ### Pure ERC20
 
 * Open Zeppelin
-* Aragorn
+* Aragon
 * ...
 
 ### Pure ERC223
 
 * Open Zeppelin
-* Aragorn
+* Aragon
 * ...
 
 ### Pure ERC721
 
 * Open Zeppelin
-* Aragorn
+* Aragon
 * ...
 
 ## Complex
