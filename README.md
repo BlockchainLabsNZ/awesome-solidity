@@ -6,18 +6,12 @@
 
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
+✨ **Index** ✨
+
 * [Getting Started](#getting-started)
-	* [Concepts](#concepts)
-	* [Typical Business logic](#typical-business-logic)
-	* [Short answers to some questions](#short-answers-to-some-questions)
 * [Vulnerabilities](#vulnerabilities)
 * [Best practices](#best-practices)
-	* [Security](#security)
-	* [Gas spending](#gas-spending)
-	* [Other](#other)
 * [Libraries](#libraries)
-	* [Standard contracts](#standard-contracts)
-	* [Utils](#utils)
 * [Code Examples](#code-examples)
 * [Tools](#tools)
 
@@ -27,20 +21,36 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) – The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
+* [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
 * [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
+* [The Hitchhiker's Guide to Smart Contracts](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
+- [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
 
 	### Concepts
 	
 	* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
 	* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 	* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+	* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
 	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 	* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
 	* [Library Driven Development in Solidity](https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736), and [SOLDOC#Libraries](https://solidity.readthedocs.io/en/develop/contracts.html#libraries)
+	* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 	
+
+	### Tutorials
+
+	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
+	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
+	* [Hack This Contract Game](http://hackthiscontract.io/)
+
+	### Short answers to some questions
+
+	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
+	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
 
 	### Typical Business logic
 	
@@ -50,10 +60,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
-	### Short answers to some questions
-
-	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
-	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
 
 
 
@@ -69,7 +75,10 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * Consensys: [known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/) (updates are irregular)
 * Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b), 
 [2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
-
+* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
+* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
+* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
+* [How $800K Evaporated from PoWH Ponzi](https://blog.goodaudience.com/how-800k-evaporated-from-the-powh-coin-ponzi-scheme-overnight-1b025c33b530)
 
 <br>
 
@@ -120,7 +129,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 ## Code and patterns examples
 
 - [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
-- [Upgradable contracts](examples/upgradable-contracts.md) 
+- [Upgradable contracts](examples/upgradable-contracts.md) – example
 - [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
 
@@ -132,4 +141,5 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 - [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development.
-- [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
+- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
+- [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
