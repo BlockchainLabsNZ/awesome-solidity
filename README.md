@@ -1,36 +1,56 @@
-# Awesome Solidity ![Awesome](../master/banner.png?raw=true)
+# Awesome Solidity
 
-# Contributing
+![Awesome](./awesome_solidity_logo_small.jpg?raw=true)
+
+#### Contributing
 
 Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
 
-✨ Index ✨
-- [Getting Started](#getting-started)
-- [Concepts](#concepts)
-- [Best practices](#best-practices)
-- [Libraries](#libraries)
-  - [Standards](#standards)
-  - [MultiSig Wallets](#multisig-wallets)
-  - [Tokens](#tokens)
-  - [Crowd sales](#crowd-sales)
-- [Code Examples](#code-examples)
-  - [Tokens](#tokens)
-  - [Crowd Sales](#crowd-sales)
-  - [Other](#other)
-- [Tools](#tools)
-  - [Testing tools](#testing-tools)
-  
+✨ **Index** ✨
+
+* [Getting Started](#getting-started)
+* [Vulnerabilities](#vulnerabilities)
+* [Best practices](#best-practices)
+* [Libraries](#libraries)
+* [Code Examples](#code-examples)
+* [Tools](#tools)
+
+<br>
 
 ## Getting Started
 
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
-* [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) - The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
-* [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) - ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
+* [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) – The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 * [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
-* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
+* [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
 * [The Hitchhiker's Guide to Smart Contracts](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
+- [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
+
+	### Concepts
+	
+	* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
+	* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
+	* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
+	* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
+	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
+	* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
+	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
+	* [Library Driven Development in Solidity](https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736), and [SOLDOC#Libraries](https://solidity.readthedocs.io/en/develop/contracts.html#libraries)
+	* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
+	
+
+	### Tutorials
+
+	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
+	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
+	* [Hack This Contract Game](http://hackthiscontract.io/)
+
+	### Short answers to some questions
+
+	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
+	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
 
 	### Typical Business logic
 	
@@ -40,97 +60,89 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
-	### Short answers to some questions
-
-	* ["Indexed" keyword / filtering logs](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do#8659)
-	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
-
-<br>
 
 
 
-## Concepts
 
-* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
-* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
-* [Upgradable contracts](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - check the reference section also
-* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
-* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
-* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
-* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
-* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
-* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
+
+
+
 
 <br>
 
+## Vulnerabilities
+
+* Consensys: [known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/) (updates are irregular)
+* Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b), 
+[2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
+* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
+* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
+* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
+* [How $800K Evaporated from PoWH Ponzi](https://blog.goodaudience.com/how-800k-evaporated-from-the-powh-coin-ponzi-scheme-overnight-1b025c33b530)
+
+<br>
 
 ## Best practices
 
 ### Security
 
 * [Ethereum Smart Contract Security Best Practices (Consensys) ](https://consensys.github.io/smart-contract-best-practices/)
-* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
-* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
-* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
-* [How $800K Evaporated from PoWH Ponzi](https://blog.goodaudience.com/how-800k-evaporated-from-the-powh-coin-ponzi-scheme-overnight-1b025c33b530)
-* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
-* [Hack This Contract Game](http://hackthiscontract.io/)
 * [Exceptions on overflow](https://github.com/ethereum/solidity/issues/796#issuecomment-253578925)
-* [Known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/)
 
 ### Gas spending
 
 * [How to write an optimized (gas-cost) smart contract?](https://ethereum.stackexchange.com/questions/28813/how-to-write-an-optimized-gas-cost-smart-contract/28818)
 * [Gas Costs from Yellow paper](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
 * [Under-Optimized Smart Contracts Devour Your Money](https://arxiv.org/pdf/1703.03994.pdf) (.pdf)
-* [public vs external](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices?answertab=active#tab-top) - latter is twice cheaper (496 vs 261)
+* [public vs external](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices?answertab=active#tab-top) – latter is twice cheaper (496 vs 261)
 
 ### Other
 
-- [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) - Follow the style guide to make solidity codes layout look pretty
+* [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) – Follow the style guide to make solidity codes layout look pretty
+* [Upgradable contracts](upgradable-contracts.md)
+
+
+
 
 <br>
-
-
-<br>
-
 
 ## Libraries
 
-## Best Practice
+### Standard contracts
 
-- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) - A framework to build secure smart contracts on Ethereum.
-- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) - Safely perform mathematical operations.
+- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) – A framework to build secure smart contracts on Ethereum.
+- [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) – Collection of basic token skeletons to extend.
+- [MiniMe Token](https://github.com/Giveth/minime) – The MiniMeToken contract is a standard ERC20 token with extra functionality.
+- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) – Popular multisig deployed by the likes of District0x, Golem, andon, Bancor, and more..
+- [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) – Crowdsale contracts from Status.
 
-## MulstiSig Wallets
+### Utils
 
-- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) - Popular multisig deployed by the likes of District0x, Golem, Aragon, Bancor, and more..
+- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) – Safely perform mathematical operations.
+- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
+- [Easily Send Many Tokens to Many Addresses](https://github.com/poanetwork/multisender)
 
-## Smart Contract Examples
 
-## Tokens
 
-- [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) - Collection of basic token skeletons to extend.
-- [MiniMe Token](https://github.com/Giveth/minime) - The MiniMeToken contract is a standard ERC20 token with extra functionality.
+<br>
 
-## Crowd Sales
+## Code and patterns examples
 
-- [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) - Crowdsale contracts from Status.
+- [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
+- [Upgradable contracts](examples/upgradable-contracts.md) – example
+- [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 
-If you need more help, check out [Ethereum StackExchange](https://ethereum.stackexchange.com)
 
-## Dev-tools
+<br>
 
-- [Solidity-scripts](https://github.com/matt-lough/solidity-scripts) - List of Scripts created by us for use when auditing
+## Tools
 
+### Testing tools
+
+- [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
+- [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development.
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
 
+### Development tools
+
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
-
-## Tutorials
-
-- [Crypto Zombies](https://cryptozombies.io/) - Great for a complete beginner to learn Solidity
-
-## Known Vulnerabilities
-
-The following is a list of known vulnerabilities that should be considered when writing and auditing smart contracts.
