@@ -142,4 +142,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 - [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development.
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
+
+### Development tools
+
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
