@@ -121,6 +121,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) – Safely perform mathematical operations.
 - [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
 - [Easily Send Many Tokens to Many Addresses](https://github.com/poanetwork/multisender)
+- [BytesHelper](https://github.com/izqui/keybase-ethereum-registry/blob/rocksolid/contracts/BytesHelper.sol) - library to deal with bytes32
 
 
 
