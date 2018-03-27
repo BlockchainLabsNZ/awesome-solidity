@@ -80,7 +80,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	### Known hacks
 
 	* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
-	* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-	of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
+	* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
 	* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
 	* [How $800K Evaporated from PoWH Ponzi](https://blog.goodaudience.com/how-800k-evaporated-from-the-powh-coin-ponzi-scheme-overnight-1b025c33b530)
 
