@@ -12,7 +12,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Vulnerabilities](#vulnerabilities)
 * [Best practices](#best-practices)
 * [Libraries](#libraries)
-* [Code Examples](#code-examples)
+* [Code Examples](#code-and-patterns-examples)
 * [Tools](#tools)
 
 <br>
