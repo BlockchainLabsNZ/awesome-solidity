@@ -1,6 +1,6 @@
 # Awesome Solidity
 
-![Awesome](./awesome_solidity_logo_small.jpg?raw=true)
+![Awesome](https://github.com/tikonoff/shares/blob/master/awesome_solidity_logo_small.jpg?raw=true)
 
 #### Contributing
 
