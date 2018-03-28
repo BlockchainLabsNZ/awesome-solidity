@@ -61,11 +61,18 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* Distribution/Exchange<!--](logic/distribution-and-exchange.md)-->
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
-
-
-
-
-
+	### News
+	
+	* [ICO Alert](https://www.icoalert.com/) – upcoming ICOs
+	* [Dappradar](https://dappradar.com) – list of new dapps
+	
+	### Blogs
+	
+	* [ConsenSys](https://medium.com/@ConsenSys) 
+	* [David Rugendyke](https://medium.com/@darcius) – Rocket Pool developer
+	* [Alex Sherbuck](https://medium.com/@alexsherbuck) – market news and hacks observation
+	* [Matthew Di Ferrante](https://medium.com/@matthewdif) – Founder @ ZK Labs
+	* [Philippe Castonguay](https://medium.com/@PhABC)
 
 
 
@@ -154,3 +161,9 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 ### Development tools
 
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
+
+### Online services
+
+- [Ethereum gas station](https://www.ethgasstation.info)
+- [Ethereum unit converter](https://etherconverter.online)
+
