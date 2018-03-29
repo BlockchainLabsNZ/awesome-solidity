@@ -135,7 +135,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 - [BytesHelper](https://github.com/izqui/keybase-ethereum-registry/blob/rocksolid/contracts/BytesHelper.sol) - library to deal with bytes32
 
 
-
 <br>
 
 ## Code and patterns examples
