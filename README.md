@@ -14,6 +14,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Libraries](#libraries)
 * [Code Examples](#code-and-patterns-examples)
 * [Tools](#tools)
+* [Dapps development](#dapps-development)
 
 <br>
 
@@ -35,11 +36,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
 	* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
 	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
-	* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
-	* [Library Driven Development in Solidity](https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736), and [SOLDOC#Libraries](https://solidity.readthedocs.io/en/develop/contracts.html#libraries)
-	* [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
-	* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 	
 
 	### Tutorials
@@ -47,6 +44,15 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
 	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
 	* [Hack This Contract Game](http://hackthiscontract.io/)
+
+	### Design principle
+
+	* [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
+	* [Library Driven Development in Solidity](https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736), and [SOLDOC#Libraries](https://solidity.readthedocs.io/en/develop/contracts.html#libraries)
+	* [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
+	* [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
+	* [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
+
 
 	### Short answers to some questions
 
@@ -69,6 +75,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	### Blogs
 	
 	* [ConsenSys](https://medium.com/@ConsenSys) 
+	* [Sarah Baker Mills](https://medium.com/@starsoup7) – Design director @Consensys
 	* [David Rugendyke](https://medium.com/@darcius) – Rocket Pool developer
 	* [Alex Sherbuck](https://medium.com/@alexsherbuck) – market news and hacks observation
 	* [Matthew Di Ferrante](https://medium.com/@matthewdif) – Founder @ ZK Labs
@@ -166,4 +173,20 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [Ethereum gas station](https://www.ethgasstation.info)
 - [Ethereum unit converter](https://etherconverter.online)
+
+
+<br>
+
+## Dapps development 
+
+Helpful information about Dapps.
+
+* [Web3 Design principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1) – development Dapps
+
+	### Design
+	
+	* [Designing for the blockchain](https://hackernoon.com/designing-for-the-blockchain-launching-an-ethereum-smart-contract-app-3a972615731c)
+
+
+<br>
 
