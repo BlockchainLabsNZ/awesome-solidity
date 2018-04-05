@@ -104,7 +104,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 ### Common design principles
 
-* [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
 * [Off-Chain Whitelist with On-Chain Verification for Ethereum Smart Contracts](https://medium.com/@PhABC/off-chain-whitelist-with-on-chain-verification-for-ethereum-smart-contracts-1563ca4b8f11)
 * [Library Driven Development in Solidity](https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736), and [SOLDOC#Libraries](https://solidity.readthedocs.io/en/develop/contracts.html#libraries)
 * [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
@@ -188,6 +187,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 Helpful information about Dapps.
 
 * [Web3 Design principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1) – development Dapps
+* [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
 
 	### Design
 	
