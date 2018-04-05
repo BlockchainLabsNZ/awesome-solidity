@@ -14,7 +14,6 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Libraries](#libraries)
 * [Code Examples](#code-and-patterns-examples)
 * [Tools](#tools)
-
 * [Dapps development](#dapps-development)
 
 <br>
