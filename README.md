@@ -174,6 +174,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 ### Development tools
 
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
+- [Solidity Doc generator](https://github.com/matt-lough/solidity-docstring-generator) – from Matt Lough
 
 ### Online services
 
