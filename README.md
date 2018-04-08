@@ -44,6 +44,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
 	* [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview) – Udemy course
 	* [Become a Blockchain Developer with Ethereum and Solidity](https://www.udemy.com/getting-started-with-ethereum-solidity-development/learn/v4/content) – Udemy course
+	* [Creating your own DAO based on Aragon framework](https://medium.com/@joselfgaray/dao-workshop-testnet-b406380894a6)
 
 
 	### Short answers to some questions
