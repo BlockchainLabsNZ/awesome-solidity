@@ -40,6 +40,10 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
 	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
 	* [Hack This Contract Game](http://hackthiscontract.io/)
+	* [What's Solidity?](https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA/videos) – Youtube tutorials 
+	* [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
+	* [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview) – Udemy course
+	* [Become a Blockchain Developer with Ethereum and Solidity](https://www.udemy.com/getting-started-with-ethereum-solidity-development/learn/v4/content) – Udemy course
 
 
 	### Short answers to some questions
