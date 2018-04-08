@@ -113,14 +113,21 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 * [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
 * [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 
-### Standards
+### ERCs 
 
-* [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) – The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 * [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
+* [ERC223 Token Standard](https://github.com/ethereum/EIPs/issues/223) – contracts with safety methods that allow return tokens sent accidentally to the contract address.
 * [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
 * [Walking Through the ERC721 Full Implementation
 ](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
+* [ERC827](https://github.com/ethereum/EIPs/issues/827) – ERC827 token. Transfers/approvals with calls.
+* [ERC875](https://github.com/ethereum/EIPs/issues/875) - ERC875 for non fungible tokens and simple atomic swaps
+
+### EIPs
+* [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
+* [EIP821](https://github.com/ethereum/EIPs/issues/821) – EIP (not ERC) 821. Contracts for Non Fungible Tokens (NFTs). 
+* [A New Advanced Token Standard](https://github.com/ethereum/EIPs/issues/777) – Contract defines operators to send tokens on behalf of another address – contract or regular account. 
 
 ### Other
 
