@@ -28,16 +28,33 @@ testrpc --gasLimit 0xfffffffffff
 ```
 That sets up your block gas limit. You can raise it up if that number cannot satisfy your test.
 
-### 
-
-
+### Export/import failure
+* Error message
+```
 (function (exports, require, module, __filename, __dirname) { export default async promise => {...}
                                                               ^^^^^^
 SyntaxError: Unexpected token export
-reason:export is not a standard js syntax.
-how to deal with: change export to 
+```
+* Method to fix
+The reason we've got this error is because `export/import` is not standard js syntax. You either use babel.js to compile to standard JavaScript (if you know how) or change
+```
+export default async promise => {...}
+```
+to
+```
+module.exports = async function (promise) {...}
+``` 
+Similar issue when it comes to `import`. Change
+```
+import assertRevert from './helpers/assertRevert';
+```
+to
+```
+const assertRevert = require('./helpers/assertRevert');
+```
+ will fix the problem.
 
-
+### Increase balance of testrpc accounts
 * Error message
 ```
  sender doesn't have enough funds to send tx. The upfront cost is: 1759218604441500000000000 and the sender's account only has: 100000000000000000000
@@ -48,7 +65,7 @@ Balances of accounts are too low. When you run testrpc, adding more balances to 
 node_modules/.bin/testrpc-sc --gasLimit 0xfffffffffff --gasPrice 1 --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501200,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501201,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501202,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501203,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501204,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501205,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501206,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501207,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501208,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF --account=0x2bdd21761a483f71054e14f5b827213567971c676928d9a1808cbfa4b7501209,0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 ```
 
-
+### Out of gas due to high gas price
 * Error message
 ```
 VM Exception while processing transaction: out of gas
@@ -70,6 +87,7 @@ module.exports = {
 };
 ```
 
+### Missing allFiredEvents
 * Error message
 ```
 Event trace could not be read.
