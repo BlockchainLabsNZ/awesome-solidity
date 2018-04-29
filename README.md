@@ -1,10 +1,11 @@
 # Awesome Solidity
 
-![Awesome](https://github.com/tikonoff/shares/blob/master/awesome_solidity_logo_small.jpg?raw=true)
+![Awesome](awesome_solidity_logo.jpg)
 
 #### Contributing
 
-Please read our contribution guidelines first. [Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
+[Contributors](https://github.com/BlockchainLabsNZ/awesome-solidity/graphs/contributors) are our favourite people, but we also love you readers too, thank you!
+
 
 ✨ **Index** ✨
 
@@ -86,7 +87,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 [2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
 
 	### Known hacks
-
+	* [Integer Overflow (i.e., proxyOverflow Bug)](http://telegra.ph/Integer-Overflow-ie-proxyOverflow-Bug-Found-in-Multiple-ERC20-Smart-Contracts-04-25) – Found in Multiple ERC20 Smart Contracts
 	* [The DAO Hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/)
 	* [Parity Wallet Hack](https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce)
 	* [Parity Wallet Hack II](https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303)
@@ -186,6 +187,7 @@ Please read our contribution guidelines first. [Contributors](https://github.com
 
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
 - [Solidity Doc generator](https://github.com/matt-lough/solidity-docstring-generator) – from Matt Lough
+- [Solidity syntax highlighting on Github](https://medium.com/@danielque/psa-how-to-fix-githubs-syntax-highlighting-for-solidity-4e9867c540b6) – howto
 
 ### Online services
 
@@ -205,7 +207,8 @@ Helpful information about Dapps.
 	### Design
 	
 	* [Designing for the blockchain](https://hackernoon.com/designing-for-the-blockchain-launching-an-ethereum-smart-contract-app-3a972615731c)
-
+	* [How to make a user-friendly Ethereum dApp
+](https://blog.hellobloom.io/how-to-make-a-user-friendly-ethereum-dapp-5a7e5ea6df22)
 
 <br>
 
