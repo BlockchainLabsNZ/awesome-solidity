@@ -27,21 +27,21 @@
 - [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
 
 	### Concepts
-	
+
 	* [Blockchain Oracles, Explained](https://cointelegraph.com/explained/blockchain-oracles-explained)
 	* [ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
 	* [Keccak256](https://www.slideshare.net/RajeevVerma14/keccakpptx)
 	* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
 	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
-	
+
 
 	### Tutorials
 
 	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
 	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
 	* [Hack This Contract Game](http://hackthiscontract.io/)
-	* [What's Solidity?](https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA/videos) – Youtube tutorials 
+	* [What's Solidity?](https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA/videos) – Youtube tutorials
 	* [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
 	* [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview) – Udemy course
 	* [Become a Blockchain Developer with Ethereum and Solidity](https://www.udemy.com/getting-started-with-ethereum-solidity-development/learn/v4/content) – Udemy course
@@ -55,7 +55,7 @@
 	* [Execution of Fallback function with more 2300 gas](https://ethereum.stackexchange.com/questions/11237/execution-of-fallback-function-with-more-2300-gas)
 
 	### Typical Business logic
-	
+
 	* [Tokens](logic/tokens.md)
 	* Wallets<!--](logic/wallets.md)-->
 	* Crowd sale<!--](logic/sale.md)-->
@@ -63,13 +63,13 @@
 	* Vesting/Locking<!--](logic/vesting.md)-->
 
 	### News
-	
+
 	* [ICO Alert](https://www.icoalert.com/) – upcoming ICOs
 	* [Dappradar](https://dappradar.com) – list of new dapps
-	
+
 	### Blogs
-	
-	* [ConsenSys](https://medium.com/@ConsenSys) 
+
+	* [ConsenSys](https://medium.com/@ConsenSys)
 	* [Sarah Baker Mills](https://medium.com/@starsoup7) – Design director @Consensys
 	* [David Rugendyke](https://medium.com/@darcius) – Rocket Pool developer
 	* [Alex Sherbuck](https://medium.com/@alexsherbuck) – market news and hacks observation
@@ -83,7 +83,7 @@
 ## Vulnerabilities
 
 * Consensys: [known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/) (updates are irregular)
-* Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b), 
+* Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b),
 [2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
 
 	### Known hacks
@@ -116,7 +116,7 @@
 * [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
 * [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 
-### ERCs 
+### ERCs
 
 * [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) – The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
 * [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
@@ -129,8 +129,8 @@
 
 ### EIPs
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
-* [EIP821](https://github.com/ethereum/EIPs/issues/821) – EIP (not ERC) 821. Contracts for Non Fungible Tokens (NFTs). 
-* [A New Advanced Token Standard](https://github.com/ethereum/EIPs/issues/777) – Contract defines operators to send tokens on behalf of another address – contract or regular account. 
+* [EIP821](https://github.com/ethereum/EIPs/issues/821) – EIP (not ERC) 821. Contracts for Non Fungible Tokens (NFTs).
+* [A New Advanced Token Standard](https://github.com/ethereum/EIPs/issues/777) – Contract defines operators to send tokens on behalf of another address – contract or regular account.
 
 ### Other
 
@@ -197,7 +197,7 @@
 
 <br>
 
-## Dapps development 
+## Dapps development
 
 Helpful information about Dapps.
 
@@ -205,7 +205,7 @@ Helpful information about Dapps.
 * [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
 
 	### Design
-	
+
 	* [Designing for the blockchain](https://hackernoon.com/designing-for-the-blockchain-launching-an-ethereum-smart-contract-app-3a972615731c)
 	* [How to make a user-friendly Ethereum dApp
 ](https://blog.hellobloom.io/how-to-make-a-user-friendly-ethereum-dapp-5a7e5ea6df22)
