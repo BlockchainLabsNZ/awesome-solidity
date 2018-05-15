@@ -1,5 +1,6 @@
 # Upgradable contracts
 
+- [Proxy Patterns](https://blog.zeppelinos.org/proxy-patterns/) – from Open Zeppelin, April 19, 2018
 - [Common introduction](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c)  + check the reference section also. March 6, 2018
 - [Proxy Libraries in Solidity](https://blog.zeppelin.solutions/proxy-libraries-in-solidity-79fbe4b970fd) – Open Zeppelin and Aragon upgradable contracts, March 6, 2017
 - [Eternal storage + hub](https://medium.com/rocket-pool/upgradable-solidity-contract-design-54789205276d) – RocketPool approach, November 22, 2017
