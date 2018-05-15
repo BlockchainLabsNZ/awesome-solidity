@@ -24,7 +24,7 @@
 * [The Hitchhiker's Guide to Smart Contracts](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
-- [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
+- [Note of setting up testing environment](Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
 
 	### Concepts
 
@@ -46,6 +46,8 @@
 	* [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview) – Udemy course
 	* [Become a Blockchain Developer with Ethereum and Solidity](https://www.udemy.com/getting-started-with-ethereum-solidity-development/learn/v4/content) – Udemy course
 	* [Creating your own DAO based on Aragon framework](https://medium.com/@joselfgaray/dao-workshop-testnet-b406380894a6)
+	* [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) - A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
+	* [Testing tool errors](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Testing_errors.md) - A list of error messages when running testing tools, and the methods of how to deal with them. Update irregular. Contributions are welcome.
 	* [Test Driven Development for Solidity](https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/)
 
 
@@ -211,4 +213,3 @@ Helpful information about Dapps.
 ](https://blog.hellobloom.io/how-to-make-a-user-friendly-ethereum-dapp-5a7e5ea6df22)
 
 <br>
-
