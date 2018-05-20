@@ -171,6 +171,7 @@
 - [Changing contract storage from inside of the Library](examples/libraries.md#changing-contract-storage-from-inside-of-the-library)
 - [Emitting events from the Library](examples/libraries.md#emitting-events-from-the-library)
 - Chai.js, [BDD approach in testing](http://www.chaijs.com/api/bdd/)
+- [Memory vs Storage & How to initialize an array inside a struct](https://medium.com/loom-network/ethereum-solidity-memory-vs-storage-how-to-initialize-an-array-inside-a-struct-184baf6aa2eb)
 
 
 
