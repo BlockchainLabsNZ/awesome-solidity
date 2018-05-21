@@ -207,7 +207,6 @@ Helpful information about Dapps.
 * [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
 * [How to create a DApp using Truffle, Oraclize, ethereum-bridge and Webpack](https://medium.com/coinmonks/how-to-create-a-dapp-using-truffle-oraclize-ethereum-bridge-and-webpack-9cb84b8f6bcb)
 * [Create Blockchain Dapp with Ethereum and VueJS](https://www.danielefavi.com/create-your-blockchain-dapp-with-ethereum-and-vuejs-part-1/)
-* []()
 
 	### Design
 
