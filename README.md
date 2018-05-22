@@ -86,7 +86,7 @@
 
 * Consensys: [known attacks](http://ethereum-contract-security-techniques-and-tips.readthedocs.io/en/latest/known_attacks/) (updates are irregular)
 * Honey Pots: [1](https://medium.com/@gerhard.wagner/the-phenomena-of-smart-contract-honeypots-755c1f943f7b),
-[2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0)
+[2](https://medium.com/@alexsherbuck/dissecting-an-ethereum-honey-pot-7102d7def5e0), [3](https://medium.com/@jsanjuas/an-analysis-of-a-couple-ethereum-honeypot-contracts-5c07c95b0a8d)
 
 	### Known hacks
 	* [Integer Overflow (i.e., proxyOverflow Bug)](http://telegra.ph/Integer-Overflow-ie-proxyOverflow-Bug-Found-in-Multiple-ERC20-Smart-Contracts-04-25) – Found in Multiple ERC20 Smart Contracts
@@ -172,6 +172,8 @@
 - [Not so smart contracts](https://github.com/trailofbits/not-so-smart-contracts) – Another examples of known vulnerabilities
 - [Changing contract storage from inside of the Library](examples/libraries.md#changing-contract-storage-from-inside-of-the-library)
 - [Emitting events from the Library](examples/libraries.md#emitting-events-from-the-library)
+- Chai.js, [BDD approach in testing](http://www.chaijs.com/api/bdd/)
+- [Memory vs Storage & How to initialize an array inside a struct](https://medium.com/loom-network/ethereum-solidity-memory-vs-storage-how-to-initialize-an-array-inside-a-struct-184baf6aa2eb)
 
 
 
@@ -205,6 +207,8 @@ Helpful information about Dapps.
 
 * [Web3 Design principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1) – development Dapps
 * [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
+* [How to create a DApp using Truffle, Oraclize, ethereum-bridge and Webpack](https://medium.com/coinmonks/how-to-create-a-dapp-using-truffle-oraclize-ethereum-bridge-and-webpack-9cb84b8f6bcb)
+* [Create Blockchain Dapp with Ethereum and VueJS](https://www.danielefavi.com/create-your-blockchain-dapp-with-ethereum-and-vuejs-part-1/)
 
 	### Design
 
