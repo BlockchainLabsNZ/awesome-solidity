@@ -25,6 +25,7 @@
 * Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
 - [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
+- [Testing tool errors](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Testing_errors.md) - A list of error messages when running testing tools, and the methods of how to deal with them. Update irregular. Contributions are welcome.
 
 	### Concepts
 
