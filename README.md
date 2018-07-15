@@ -34,6 +34,7 @@
 	* [Web 3.0 Explained](https://www.youtube.com/watch?v=aPVmd7SyKfQ)
 	* [Random numbers](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 	* [Velocity of Tokens](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77)
+	* [HD Wallet explained](https://medium.com/bitcraft/hd-wallets-explained-from-high-level-to-nuts-and-bolts-9a41545f5b0)
 
 
 	### Tutorials
