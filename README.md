@@ -185,11 +185,13 @@
 
 - [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 - [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development.
+- [Solhint](https://github.com/protofire/solhint) – Solidity linter that provides security, style guide and best practice rules for smart contract validation.
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
 
 ### Development tools
 
 - [Docker images](https://hub.docker.com/r/nzblabs/) / [Audit repo](https://github.com/BlockchainLabsNZ/audit-env) - Solidity testing environment from us (Blockchain Labs, NZ)
+- [eth-cli](https://github.com/protofire/eth-cli) – A collection of CLI tools to help with ethereum learning and development
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
 - [Solidity Doc generator](https://github.com/matt-lough/solidity-docstring-generator) – from Matt Lough
 - [Solidity syntax highlighting on Github](https://medium.com/@danielque/psa-how-to-fix-githubs-syntax-highlighting-for-solidity-4e9867c540b6) – howto
