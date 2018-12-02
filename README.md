@@ -123,16 +123,16 @@
 
 ### ERCs
 
-- [ERC-20](https://eips.ethereum.org/EIPS/eip-20) - Original token contract for fungible assets  [ [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02) / [Example](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) ]
-- [ERC-165]() - Creates a standard method to publish and detect what interfaces a smart contract implements
-- [ERC-173]() - A standard interface for ownership of contracts
+- [ERC-20](https://eips.ethereum.org/EIPS/eip-20) - original token contract for fungible assets  [ [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02) / [Example](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) ]
+- [ERC-165](https://eips.ethereum.org/EIPS/eip-165) - creates a standard method to publish and detect what interfaces a smart contract implements
+- [ERC-173](https://eips.ethereum.org/EIPS/eip-173) - a standard interface for ownership of contracts
 - [ERC-223](https://github.com/ethereum/EIPs/issues/223) – contracts with safety methods that allow return tokens sent accidentally to the contract address
-- [ERC-721](https://github.com/ethereum/eips/issues/721) - Token standard for non-fungible assets [ [Walking Through the ERC721 Full Implementation 
+- [ERC-721](https://github.com/ethereum/eips/issues/721) - token standard for non-fungible assets [ [Walking Through the ERC721 Full Implementation 
 ](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c) ]
-- [ERC-725]() - Proxy contract for key management and execution, to establish a Blockchain identity
+- [ERC-725](https://eips.ethereum.org/EIPS/eip-725) - proxy contract for key management and execution, to establish a Blockchain identity
 - [ERC-827](https://github.com/ethereum/EIPs/issues/827) – transfers/approvals with calls
 - [ERC-875](https://github.com/ethereum/EIPs/issues/875) - for non fungible tokens and simple atomic swaps
-- [ERC-918]() - Mineable Token Standard
+- [ERC-918](https://eips.ethereum.org/EIPS/eip-918) - mineable Token Standard
 
 - [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns
 
@@ -162,6 +162,12 @@
 - [aragonOS](https://hack.aragon.org/docs/aragonos-intro.html) – A smart contract framework for building DAOs, Dapps and protocols
 - [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) – Popular multisig deployed by the likes of District0x, Golem, andon, Bancor, and more
 - [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) – Crowdsale contracts from Status
+- [cryptofin-solidity](https://github.com/cryptofinlabs/cryptofin-solidity) - A collection of Solidity libraries for building secure and gas-efficient smart contracts on Ethereum.
+- [Modular Libraries](https://github.com/Modular-Network/ethereum-libraries) - A group of packages built for use on blockchains utilising the Ethereum Virtual Machine
+- [DateTime Library](https://github.com/bokkypoobah/BokkyPooBahsDateTimeLibrary) - A gas-efficient Solidity date and time library
+- [Aragon](https://github.com/aragon/aragon) - DAO protocol. Contains [aragonOS smart contract framework](https://github.com/aragon/aragonOS) with focus on upgradeability and governance
+- [0x](https://github.com/0xProject) - DEX protocol
+- [Token Libraries with Proofs](https://github.com/sec-bit/tokenlibs-with-proofs) - Contains correctness proofs of token contracts wrt. given specifications and high-level properties
 
 ### Utils
 
@@ -191,7 +197,7 @@
 
 ## Tools
 
-- [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list) - A great list of frameworks, patterns, and tools from ConsenSys
+Check [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list) - A great list of frameworks, patterns, and tools from ConsenSys
 
 ### Testing tools
 
@@ -237,11 +243,10 @@
 
 Helpful information about Dapps.
 
-* [Web3 Design principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1) – development Dapps
+* [Web3 Design principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1) – Dapps development
 * [Blockchain Design Principles](https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e)
 * [How to create a DApp using Truffle, Oraclize, ethereum-bridge and Webpack](https://medium.com/coinmonks/how-to-create-a-dapp-using-truffle-oraclize-ethereum-bridge-and-webpack-9cb84b8f6bcb)
 * [Create Blockchain Dapp with Ethereum and VueJS](https://www.danielefavi.com/create-your-blockchain-dapp-with-ethereum-and-vuejs-part-1/)
-* []()
 
 ### Design
 
@@ -249,36 +254,49 @@ Helpful information about Dapps.
 * [How to make a user-friendly Ethereum dApp
 ](https://blog.hellobloom.io/how-to-make-a-user-friendly-ethereum-dapp-5a7e5ea6df22)
 
-### Frontend
-- [Web3.js]()  - Javascript Web3
-- [Eth.js]()  - Javascript Web3 alternative
-- [Ethers.js]() - Javascript Web3 alternative, useful utilities and wallet features
-- [Web3Wrapper]() - Typescript Web3 alternative
-- [Ethereumjs]()  - A collection of utility functions for Ethereum like ethereumjs-util and ethereumjs-tx
+### Private networks
+
+- [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
+- [Private networks deployment scripts](https://github.com/ConsenSys/private-networks-deployment-scripts) - Out-of-the-box deployment scripts for private PoA networks
+- [Parity Demo-PoA Tutorial](https://wiki.parity.io/Demo-PoA-tutorial.html) - Step-by-Step tutorial for building a PoA test chain with 2 nodes with Parity authority round consensus
+- [Local Ethereum Network](https://github.com/ConsenSys/local_ethereum_network) - Out-of-the-box deployment scripts for private PoW networks
+- [Kaleido](https://kaleido.io/) - Use Kaleido for spinning up a consortium blockchain network. Great for PoCs and testing
+
+### React / Redux
+
 - [React boilerplate](https://github.com/silentcicero/react-dapp-boilerplate)
 - [React Truffle Box](https://github.com/truffle-box/react-box)
-- [Drizzle]()  - Redux library to connect a frontend to a blockchain
-- [Subproviders]()  - Several useful subproviders to use in conjunction with Web3-provider-engine (including a LedgerSubprovider for adding Ledger hardware wallet support to your dApp)
-- [web3-webpacked]()  - JS framework to manage web3 injection
-- [Vortex]()  - A Dapp-ready Redux Store. Smart and Dynamic background data refresh thanks to WebSockets. Works with Truffle and Embark.
-- [Strictly Typed]()  - Javascript alternatives
-- [elm-ethereum]() 
-- [purescript-web3]() 
+- [Drizzle](https://github.com/truffle-box/drizzle-box)  - Redux library to connect a frontend to a blockchain
+- [Vortex](https://github.com/Horyus/vortex)  - A Dapp-ready Redux Store. Smart and Dynamic background data refresh thanks to WebSockets. Works with Truffle and Embark.
 
-### Backend Ethereum APIs
+### APIs / subproviders
 
-- [Web3.py]() - Python Web3
-- [Web3.php]()  - PHP Web3
-- [Ethereum-php]()  - PHP Web3
-- [Web3j]()  - Java Web3
-- [Nethereum]()  - .Net Web3
-- [Ethereum.rb]()  - Ruby Web3
-- [Web3.hs]()  - Haskell Web3
-- [KEthereum]()  - Kotlin Web3
-- [Pyethereum]()  - The Python core library of the Ethereum project
-- [Eventeum]()  - A bridge between Ethereum smart contract events and backend microservices, written in Java by Kauri
-- [Ethereumex]()  - Elixir JSON-RPC client for the Ethereum blockchain
-- [EthContract]()  - A set of helper methods to help query ETH smart contracts in Elixir
+#### Javascript
+
+- [Web3.js](https://github.com/ethereum/web3.js/)  - Javascript Web3
+- [Eth.js](https://github.com/ethjs)  - Javascript Web3 alternative
+- [Ethers.js](https://github.com/ethers-io/ethers.js/) - Javascript Web3 alternative, useful utilities and wallet features
+- [Web3Wrapper](https://github.com/0xProject/0x-monorepo/tree/v2-prototype/packages/web3-wrapper) - Typescript Web3 alternative
+- [Ethereumjs](https://github.com/ethereumjs/)  - A collection of utility functions for Ethereum like ethereumjs-util and ethereumjs-tx
+- [Subproviders](https://github.com/0xProject/0x-monorepo/tree/v2-prototype/packages/subproviders)  - Several useful subproviders to use in conjunction with Web3-provider-engine (including a LedgerSubprovider for adding Ledger hardware wallet support to your dApp)
+- [web3-webpacked](https://github.com/NoahHydro/web3-webpacked)  - JS framework to manage web3 injection
+
+#### Other languages
+
+- [elm-ethereum](https://github.com/cmditch/elm-ethereum) 
+- [purescript-web3](https://github.com/f-o-a-m/purescript-web3) 
+- [Web3.py](https://github.com/ethereum/web3.py) - Python Web3
+- [Web3.php](https://github.com/sc0Vu/web3.php)  - PHP Web3
+- [Ethereum-php](https://github.com/digitaldonkey/ethereum-php)  - PHP Web3
+- [Web3j](https://github.com/web3j/web3j)  - Java Web3
+- [Nethereum](https://nethereum.com/)  - .Net Web3
+- [Ethereum.rb](https://github.com/EthWorks/ethereum.rb)  - Ruby Web3
+- [Web3.hs](http://hackage.haskell.org/package/web3)  - Haskell Web3
+- [KEthereum](https://github.com/walleth/kethereum)  - Kotlin Web3
+- [Pyethereum](https://github.com/ethereum/pyethereum)  - The Python core library of the Ethereum project
+- [Eventeum](https://github.com/ConsenSys/eventeum)  - A bridge between Ethereum smart contract events and backend microservices, written in Java by Kauri
+- [Ethereumex](https://github.com/exthereum/ethereumex)  - Elixir JSON-RPC client for the Ethereum blockchain
+- [EthContract](https://github.com/AgileAlpha/eth_contract)  - A set of helper methods to help query ETH smart contracts in Elixir
 
 <br>
 
