@@ -40,6 +40,7 @@
 
 	### Tutorials
 
+	* [Kauri](https://beta.kauri.io/) – Super collection of up-to-date tutorials and tips on How to build on Ethereum
 	* [CryptoZombies: Learn to Code Ethereum DApps By Building Your Own Game](https://cryptozombies.io)
 	* [Ethernaut - Smart Contract Hacking Game](https://ethernaut.zeppelin.solutions/)
 	* [Hack This Contract Game](http://hackthiscontract.io/)
@@ -77,6 +78,8 @@
 	* [Alex Sherbuck](https://medium.com/@alexsherbuck) – market news and hacks observation
 	* [Matthew Di Ferrante](https://medium.com/@matthewdif) – Founder @ ZK Labs
 	* [Philippe Castonguay](https://medium.com/@PhABC)
+	* [Elena Dimitrova](https://blog.colony.io/@elena_di) – Dev at colony.io
+	* [Aragon techblog](https://blog.aragon.org/tag/development/)
 
 
 
@@ -120,19 +123,24 @@
 
 ### ERCs
 
-* [ERC20 Token Standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) – The ERC20 token standard describes the functions and events that an Ethereum token contract has to implement.
-* [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02)
-* [ERC223 Token Standard](https://github.com/ethereum/EIPs/issues/223) – contracts with safety methods that allow return tokens sent accidentally to the contract address.
-* [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns.
-* [Walking Through the ERC721 Full Implementation
-](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
-* [ERC827](https://github.com/ethereum/EIPs/issues/827) – ERC827 token. Transfers/approvals with calls.
-* [ERC875](https://github.com/ethereum/EIPs/issues/875) - ERC875 for non fungible tokens and simple atomic swaps
+- [ERC-20](https://eips.ethereum.org/EIPS/eip-20) - Original token contract for fungible assets  [ [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02) / [Example](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) ]
+- [ERC-165]() - Creates a standard method to publish and detect what interfaces a smart contract implements
+- [ERC-173]() - A standard interface for ownership of contracts
+- [ERC-223](https://github.com/ethereum/EIPs/issues/223) – contracts with safety methods that allow return tokens sent accidentally to the contract address
+- [ERC-721](https://github.com/ethereum/eips/issues/721) - Token standard for non-fungible assets [ [Walking Through the ERC721 Full Implementation 
+](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c) ]
+- [ERC-725]() - Proxy contract for key management and execution, to establish a Blockchain identity
+- [ERC-827](https://github.com/ethereum/EIPs/issues/827) – transfers/approvals with calls
+- [ERC-875](https://github.com/ethereum/EIPs/issues/875) - for non fungible tokens and simple atomic swaps
+- [ERC-918]() - Mineable Token Standard
+
+- [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns
+
 
 ### EIPs
 * [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format)
-* [EIP821](https://github.com/ethereum/EIPs/issues/821) – EIP (not ERC) 821. Contracts for Non Fungible Tokens (NFTs).
-* [A New Advanced Token Standard](https://github.com/ethereum/EIPs/issues/777) – Contract defines operators to send tokens on behalf of another address – contract or regular account.
+* [EIP821](https://github.com/ethereum/EIPs/issues/821) – EIP (not ERC) 821. Contracts for Non Fungible Tokens (NFTs)
+* [A New Advanced Token Standard](https://github.com/ethereum/EIPs/issues/777) – Contract defines operators to send tokens on behalf of another address – contract or regular account
 
 ### Other
 
@@ -148,16 +156,17 @@
 
 ### Standard contracts
 
-- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) – A framework to build secure smart contracts on Ethereum.
-- [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) – Collection of basic token skeletons to extend.
-- [MiniMe Token](https://github.com/Giveth/minime) – The MiniMeToken contract is a standard ERC20 token with extra functionality.
-- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) – Popular multisig deployed by the likes of District0x, Golem, andon, Bancor, and more..
-- [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) – Crowdsale contracts from Status.
+- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/zeppelin-solidity) – A framework to build secure smart contracts on Ethereum
+- [OpenZeppelin Base Tokens](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts/token) – Collection of basic token skeletons to extend
+- [MiniMe Token](https://github.com/Giveth/minime) – The MiniMeToken contract is a standard ERC20 token with extra functionality
+- [aragonOS](https://hack.aragon.org/docs/aragonos-intro.html) – A smart contract framework for building DAOs, Dapps and protocols
+- [Gnosis MultiSig](https://github.com/gnosis/MultiSigWallet) – Popular multisig deployed by the likes of District0x, Golem, andon, Bancor, and more
+- [Status.im Crowdsale](https://github.com/status-im/status-network-token/tree/master/contracts) – Crowdsale contracts from Status
 
 ### Utils
 
-- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) – Safely perform mathematical operations.
-- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care).
+- [SafeMath](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol) – Safely perform mathematical operations
+- [Solidity String Utils](https://github.com/Arachnid/solidity-stringutils) (use with care)
 - [Easily Send Many Tokens to Many Addresses](https://github.com/poanetwork/multisender)
 - [BytesHelper](https://github.com/izqui/keybase-ethereum-registry/blob/rocksolid/contracts/BytesHelper.sol) - library to deal with bytes32
 
@@ -168,12 +177,13 @@
 
 - [Bitwise Operations and Bit Manipulation in Solidity, Ethereum](https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216)
 - [Upgradable contracts](examples/upgradable-contracts.md) – example
-- [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot. [Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
+- [Solidity Security Exploits](https://github.com/tenthirtyone/weaponized_math): Re-Entrancy, Denial of Service - Gas, Denial of Service - Revert, Force Ether - selfdestruct, Storage Allocation Exploit, Underflow / Overflow, Re-Entrancy Honey Pot, Function Call Honey Pot[Explanations here](https://medium.com/@alexsherbuck/two-ways-to-force-ether-into-a-contract-1543c1311c56)
 - [Not so smart contracts](https://github.com/trailofbits/not-so-smart-contracts) – Another examples of known vulnerabilities
 - [Changing contract storage from inside of the Library](examples/libraries.md#changing-contract-storage-from-inside-of-the-library)
 - [Emitting events from the Library](examples/libraries.md#emitting-events-from-the-library)
 - Chai.js, [BDD approach in testing](http://www.chaijs.com/api/bdd/)
 - [Memory vs Storage & How to initialize an array inside a struct](https://medium.com/loom-network/ethereum-solidity-memory-vs-storage-how-to-initialize-an-array-inside-a-struct-184baf6aa2eb)
+- [Multisig contracts](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) – Simpler Ethereum Multisig Contracts
 
 
 
@@ -181,11 +191,13 @@
 
 ## Tools
 
+- [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list) - A great list of frameworks, patterns, and tools from ConsenSys
+
 ### Testing tools
 
-- [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
-- [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development.
-- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers.
+- [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier
+- [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development
+- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers
 
 ### Development tools
 
@@ -195,6 +207,23 @@
 - [11 Best Ethereum Development Tools](https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab)
 - [Solidity Doc generator](https://github.com/matt-lough/solidity-docstring-generator) – from Matt Lough
 - [Solidity syntax highlighting on Github](https://medium.com/@danielque/psa-how-to-fix-githubs-syntax-highlighting-for-solidity-4e9867c540b6) – howto
+
+### Test Ether faucets
+
+- [Rinkeby faucet](https://faucet.rinkeby.io/)
+- [Kovan faucet](https://github.com/kovan-testnet/faucet)
+- [Ropsten faucet](http://faucet.ropsten.be:3001/)
+
+### Storage
+
+- [IPFS](https://ipfs.io/) - Decentralised storage and file referencing
+	- [IPFS-Store](https://github.com/ConsenSys/IPFS-Store) - IPFS Storage service with added search capability
+	- [OrbitDB](https://github.com/orbitdb/orbit-db) - Decentralised database on top of IPFS
+	- [JS IPFS API](https://github.com/ipfs/js-ipfs-api) - A client library for the IPFS HTTP API, implemented in JavaScript.
+	- [TEMPORAL](https://github.com/RTradeLtd/Temporal) - Easy to use API into IPFS and other distributed/decentralised storage protocols
+	- [Infura API](https://infura.io/docs/) - Another API to IPFS
+- [Swarm](http://swarm-gateways.net/) - Distributed storage platform and content distribution service, a native base layer service of the Ethereum web3 stack
+- [Filecoin](https://filecoin.io) – "DECENTRALIZED MARKET FOR STORAGE". Blockchain on top of IPFS
 
 ### Online services
 
@@ -214,11 +243,42 @@ Helpful information about Dapps.
 * [Create Blockchain Dapp with Ethereum and VueJS](https://www.danielefavi.com/create-your-blockchain-dapp-with-ethereum-and-vuejs-part-1/)
 * []()
 
-	### Design
+### Design
 
-	* [Designing for the blockchain](https://hackernoon.com/designing-for-the-blockchain-launching-an-ethereum-smart-contract-app-3a972615731c)
-	* [How to make a user-friendly Ethereum dApp
+* [Designing for the blockchain](https://hackernoon.com/designing-for-the-blockchain-launching-an-ethereum-smart-contract-app-3a972615731c)
+* [How to make a user-friendly Ethereum dApp
 ](https://blog.hellobloom.io/how-to-make-a-user-friendly-ethereum-dapp-5a7e5ea6df22)
+
+### Frontend
+- [Web3.js]()  - Javascript Web3
+- [Eth.js]()  - Javascript Web3 alternative
+- [Ethers.js]() - Javascript Web3 alternative, useful utilities and wallet features
+- [Web3Wrapper]() - Typescript Web3 alternative
+- [Ethereumjs]()  - A collection of utility functions for Ethereum like ethereumjs-util and ethereumjs-tx
+- [React boilerplate](https://github.com/silentcicero/react-dapp-boilerplate)
+- [React Truffle Box](https://github.com/truffle-box/react-box)
+- [Drizzle]()  - Redux library to connect a frontend to a blockchain
+- [Subproviders]()  - Several useful subproviders to use in conjunction with Web3-provider-engine (including a LedgerSubprovider for adding Ledger hardware wallet support to your dApp)
+- [web3-webpacked]()  - JS framework to manage web3 injection
+- [Vortex]()  - A Dapp-ready Redux Store. Smart and Dynamic background data refresh thanks to WebSockets. Works with Truffle and Embark.
+- [Strictly Typed]()  - Javascript alternatives
+- [elm-ethereum]() 
+- [purescript-web3]() 
+
+### Backend Ethereum APIs
+
+- [Web3.py]() - Python Web3
+- [Web3.php]()  - PHP Web3
+- [Ethereum-php]()  - PHP Web3
+- [Web3j]()  - Java Web3
+- [Nethereum]()  - .Net Web3
+- [Ethereum.rb]()  - Ruby Web3
+- [Web3.hs]()  - Haskell Web3
+- [KEthereum]()  - Kotlin Web3
+- [Pyethereum]()  - The Python core library of the Ethereum project
+- [Eventeum]()  - A bridge between Ethereum smart contract events and backend microservices, written in Java by Kauri
+- [Ethereumex]()  - Elixir JSON-RPC client for the Ethereum blockchain
+- [EthContract]()  - A set of helper methods to help query ETH smart contracts in Elixir
 
 <br>
 
