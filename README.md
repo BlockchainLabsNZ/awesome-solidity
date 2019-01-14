@@ -80,6 +80,7 @@
 	* [Philippe Castonguay](https://medium.com/@PhABC)
 	* [Elena Dimitrova](https://blog.colony.io/@elena_di) – Dev at colony.io
 	* [Aragon techblog](https://blog.aragon.org/tag/development/)
+	* [Mark Elliot's blog about blockchain](https://medium.com/the-challenge)
 
 
 
