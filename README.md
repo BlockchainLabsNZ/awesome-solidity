@@ -80,6 +80,7 @@
 	* [Philippe Castonguay](https://medium.com/@PhABC)
 	* [Elena Dimitrova](https://blog.colony.io/@elena_di) – Dev at colony.io
 	* [Aragon techblog](https://blog.aragon.org/tag/development/)
+	* [SmartDec blog](https://blog.smartdec.net/)
 
 
 
@@ -202,6 +203,7 @@ Check [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-to
 
 - [Truffle](https://github.com/trufflesuite/truffle) – Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier
 - [TestRPC](https://github.com/ethereumjs/testrpc) – Fast Ethereum RPC client for testing and development
+- [SmartCheck](https://tool.smartdec.net/) - A linter for Solidity and Vyper that checks code for security issues and bad practices
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler) -  Analysis report of function signatures, visibility, return values, and modifiers
 
 ### Development tools
