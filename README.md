@@ -81,6 +81,7 @@
 	* [Philippe Castonguay](https://medium.com/@PhABC)
 	* [Elena Dimitrova](https://blog.colony.io/@elena_di) – Dev at colony.io
 	* [Aragon techblog](https://blog.aragon.org/tag/development/)
+	* [Mark Elliot's blog about blockchain](https://medium.com/the-challenge)
 
 
 
@@ -134,7 +135,6 @@
 - [ERC-827](https://github.com/ethereum/EIPs/issues/827) – transfers/approvals with calls
 - [ERC-875](https://github.com/ethereum/EIPs/issues/875) - for non fungible tokens and simple atomic swaps
 - [ERC-918](https://eips.ethereum.org/EIPS/eip-918) - mineable Token Standard
-
 - [ERC Token Standards for Dummies, Like Me](https://decentral.market/2018/03/04/erc-token-standards-for-dummies-like-me/) – ERC20, ERC223, ERC827, ERC721 short review with major points and concerns
 
 
