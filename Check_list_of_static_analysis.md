@@ -31,7 +31,7 @@ This list aims to remind auditors of both common and rare issues of smart contra
 * Public variables and functions should have different names to aviod duplicate. See [example](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/issues/2) 
 * A function should return a result if its declaration says that. See [example](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/issues/1)
 * Favour require() over If() statements. See [example](https://github.com/BlockchainLabsNZ/mothership-sen/issues/1)
-* Avoid using magic numbers. See [example](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/3)
+
 
 
 ## Other issues
