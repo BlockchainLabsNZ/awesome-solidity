@@ -209,6 +209,7 @@ Check [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-to
 
 ### Development tools
 
+- [solc-select](https://github.com/crytic/solc-select) – A script to switch between solidity versions, including solc 0.4.x for MacOS 
 - [Web3.js](https://github.com/ethereum/web3.js/) – Ethereum JavaScript API
 - [ethers.js](https://github.com/ethers-io/ethers.js/) –  Ethereum wallet implementation and utilities in JavaScript (and TypeScript)
 - [Docker images](https://hub.docker.com/r/nzblabs/) / [Audit repo](https://github.com/BlockchainLabsNZ/audit-env) - Solidity testing environment from us (Blockchain Labs, NZ)
