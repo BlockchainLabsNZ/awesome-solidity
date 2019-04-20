@@ -191,6 +191,7 @@
 - Chai.js, [BDD approach in testing](http://www.chaijs.com/api/bdd/)
 - [Memory vs Storage & How to initialize an array inside a struct](https://medium.com/loom-network/ethereum-solidity-memory-vs-storage-how-to-initialize-an-array-inside-a-struct-184baf6aa2eb)
 - [Multisig contracts](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) – Simpler Ethereum Multisig Contracts
+- [Self-balancing binary search trees](https://hackernoon.com/binary-search-trees-and-order-statistics-for-ethereum-db47e2dd2c36) - BST adapted for Solidity and EVM
 
 
 
