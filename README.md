@@ -22,7 +22,7 @@
 ## Getting Started
 
 * [The Hitchhiker's Guide to Smart Contracts](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
-* Solidity CRUD operations – [part1](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt1.pdf), [part2](https://bitbucket.org/rhitchens2/soliditycrud/src/master/docs/solidityCRUD-pt2.pdf)
+* Solidity CRUD operations – [part1](https://medium.com/robhitchens/solidity-crud-part-1-824ffa69509a), [part2](https://medium.com/robhitchens/solidity-crud-part-2-ed8d8b4f74ec), [part3](https://medium.com/robhitchens/solidity-crud-epilogue-e563e794fde)
 * [Airdrops](https://blog.ricmoo.com/merkle-air-drops-e6406945584d)
 - [Note of setting up testing environment](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Note_of_setting_up_testing_environment.md) – A note of how to set up testing environment and avoid annoying errors (on Windows10). Including a few regular tools: testrpc, truffle, mocha.js,truffle flattener, gas-reporter, coveralls, sol-function-profiler, Parity
 - [Testing tool errors](https://github.com/BlockchainLabsNZ/awesome-solidity/blob/master/Testing_errors.md) - A list of error messages when running testing tools, and the methods of how to deal with them. Update irregular. Contributions are welcome.
@@ -191,6 +191,7 @@
 - Chai.js, [BDD approach in testing](http://www.chaijs.com/api/bdd/)
 - [Memory vs Storage & How to initialize an array inside a struct](https://medium.com/loom-network/ethereum-solidity-memory-vs-storage-how-to-initialize-an-array-inside-a-struct-184baf6aa2eb)
 - [Multisig contracts](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) – Simpler Ethereum Multisig Contracts
+- [Self-balancing binary search trees](https://hackernoon.com/binary-search-trees-and-order-statistics-for-ethereum-db47e2dd2c36) - BST adapted for Solidity and EVM
 
 
 
