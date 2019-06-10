@@ -210,6 +210,7 @@ Check [ConsenSys' Tools List](https://github.com/ConsenSys/ethereum-developer-to
 
 ### Development tools
 
+- [pocketh](https://github.com/ajsantander/pocketh) – Toolset, provides a series of cli commands that allow you to quickly operate on a contract
 - [solc-select](https://github.com/crytic/solc-select) – A script to switch between solidity versions, including solc 0.4.x for MacOS 
 - [Web3.js](https://github.com/ethereum/web3.js/) – Ethereum JavaScript API
 - [ethers.js](https://github.com/ethers-io/ethers.js/) –  Ethereum wallet implementation and utilities in JavaScript (and TypeScript)
