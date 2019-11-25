@@ -147,6 +147,7 @@
 
 * [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html#function-declaration) – Follow the style guide to make solidity codes layout look pretty
 * [Upgradable contracts](upgradable-contracts.md)
+* [Best Practices for Smart Contract Development](https://yos.io/2019/11/10/smart-contract-development-best-practices/)
 
 
 
