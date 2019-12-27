@@ -51,6 +51,7 @@
 	* [Become a Blockchain Developer with Ethereum and Solidity](https://www.udemy.com/getting-started-with-ethereum-solidity-development/learn/v4/content) – Udemy course
 	* [Creating your own DAO based on Aragon framework](https://medium.com/@joselfgaray/dao-workshop-testnet-b406380894a6)
 	* [Test Driven Development for Solidity](https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/)
+	* [Solidity and Vyper cheat sheet](https://reference.auditless.com/cheatsheet)
 
 
 	### Short answers to some questions
