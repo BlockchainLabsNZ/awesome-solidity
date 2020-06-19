@@ -169,6 +169,7 @@
 - [Aragon](https://github.com/aragon/aragon) - DAO protocol. Contains [aragonOS smart contract framework](https://github.com/aragon/aragonOS) with focus on upgradeability and governance
 - [0x](https://github.com/0xProject) - DEX protocol
 - [Token Libraries with Proofs](https://github.com/sec-bit/tokenlibs-with-proofs) - Contains correctness proofs of token contracts wrt. given specifications and high-level properties
+- [0xcert ERC-721 Implementation](https://github.com/0xcert/ethereum-erc721) - This is the reference implementation of ERC-721 
 
 ### Utils
 
