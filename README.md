@@ -123,6 +123,12 @@
 * [Reversing Ethereum Smart Contracts](https://arvanaghi.com/blog/reversing-ethereum-smart-contracts/) – smart contract reverse engineering
 * [A Crash Course for Mechanism Design](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)
 
+### Mainnet deployment
+
+- [Secure deployment checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/)
+- [Open Zeppelin recommendations for mainnet](https://docs.openzeppelin.com/learn/preparing-for-mainnet)
+
+
 ### ERCs
 
 - [ERC-20](https://eips.ethereum.org/EIPS/eip-20) - original token contract for fungible assets  [ [The Anatomy of ERC20](https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02) / [Example](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) ]
